@@ -26,4 +26,9 @@ locals
 dlsf'''
 print(z)
 
-a='abcdefghijklmno'
+a='abcdefghijklmnopqrstuvwxyz'
+i=0
+print(a[i%26])
+
+s=10
+print(s%10)
