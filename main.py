@@ -1,11 +1,6 @@
-# L is a positive integer that has already been defined at this stage
-L=5
-word = input()
-space = ' ' # there is a single space
-if len(word) < L:
-    word = 'short' + space + word
-elif L <= len(word) < 2 * L:
-    word = 'medium' + space + word
+num = int(input())
+first, middle, last = int(num[0]), int(num[1]), int(num[2])
+if first + last == middle:
+    print('sandwich')
 else:
-    word = 'long' + space + word
-print(word)
+    print('plain')
