@@ -1,34 +1,16 @@
-#Dynaming typing
-
-a=10
-print(type(a))
-
-a='India'
-print(type(a))
-n=10
-print(type(n))
-print(n)
-n=n/2
-print(n)
-print(type(n))
-x,y=1,2
-print(y,x)
-a=b=c=10
-print(a,b,c)
-s=100
-print(s)
-del s
-#print(s)
-print('abc' in 'dskjfssdsdabc')
-print('xyz' in 'dskjfssdsdabc')
-z=''''hehhe
-locals
-dlsf'''
-print(z)
-
-a='abcdefghijklmnopqrstuvwxyz'
+alpha='abcdefghijklmnopqrstuvwxyz'
+s='sharique'
+t=''
 i=0
-print(a[i%26])
+k=1
+t=t+(alpha[(((alpha.index(s[i]))+k)%26)])
+t=t+(alpha[(((alpha.index(s[i+1]))+k)%26)])
+t=t+(alpha[(((alpha.index(s[i+2]))+k)%26)])
+t=t+(alpha[(((alpha.index(s[i+3]))+k)%26)])
+t=t+(alpha[(((alpha.index(s[i+4]))+k)%26)])
+t=t+(alpha[(((alpha.index(s[i+5]))+k)%26)])
+t=t+(alpha[(((alpha.index(s[i+6]))+k)%26)])
+t=t+(alpha[(((alpha.index(s[i+7]))+k)%26)])
+#t=t+(alpha[(((alpha.index(s[i+8]))+k)%26)])
 
-s=10
-print(s%10)
+print(t)
